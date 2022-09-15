@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightgray;
+    color: #456268;
+}
+
+.span{
+    font-weight: lighter;
+    font-style: italic;
+}
+button{
+    background-color: #79a3b1;
+}
+table{
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.container{
+    margin: 3%;
+
+}
+@media screen and( min-width:567px){
+    .modified{
+        width:100%
+    }
+}
